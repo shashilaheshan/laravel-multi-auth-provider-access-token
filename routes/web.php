@@ -21,3 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/registercustomer',[
     'uses'=>'CustomerController@register'
 ]);
+Route::get('/set',[
+
+    'uses'=>'HomeController@set'
+]);
